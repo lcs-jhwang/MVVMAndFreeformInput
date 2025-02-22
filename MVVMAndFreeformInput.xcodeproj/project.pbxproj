@@ -55,6 +55,7 @@
 		31EB35BE2D6A261D00D150D7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				31EB35BF2D6A261D00D150D7 /* Assets.xcassets */,
 				31EB35BD2D6A261D00D150D7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -63,10 +64,11 @@
 		31EB35C22D6A261D00D150D7 /* MVVMAndFreeformInput */ = {
 			isa = PBXGroup;
 			children = (
-				31EB35C92D6A266100D150D7 /* Views */,
+				31EB35C12D6A261D00D150D7 /* MVVMAndFreeformInputApp.swift */,
 				31EB35C72D6A264100D150D7 /* Model */,
-				31EB35BE2D6A261D00D150D7 /* Preview Content */,
 				31EB35C82D6A265900D150D7 /* ViewModels */,
+				31EB35C92D6A266100D150D7 /* Views */,
+				31EB35BE2D6A261D00D150D7 /* Preview Content */,
 			);
 			path = MVVMAndFreeformInput;
 			sourceTree = "<group>";
@@ -90,8 +92,6 @@
 		31EB35C92D6A266100D150D7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				31EB35BF2D6A261D00D150D7 /* Assets.xcassets */,
-				31EB35C12D6A261D00D150D7 /* MVVMAndFreeformInputApp.swift */,
 				31EB35C02D6A261D00D150D7 /* PowerView.swift */,
 			);
 			path = Views;
