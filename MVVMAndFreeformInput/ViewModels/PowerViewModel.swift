@@ -27,7 +27,7 @@ class PowerViewModel {
         // First check that the string in providedBase can
         // be converted into a number, then check that the
         // value is more than 0
-        guard let base = Double(providedBase), base > 0 else {
+        guard let base = Double(providedBase), base != Double() else {
             recoverySuggestion = "Please provide a positive value for the base of the power."
             
             return nil
