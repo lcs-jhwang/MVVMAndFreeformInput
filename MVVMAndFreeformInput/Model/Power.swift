@@ -54,9 +54,10 @@ struct Power {
             
             var negativePower = 1
             negativePower = exponent * -1
+            solution = base
             
-            for _ in 1...negativePower {
-                solution *= base
+            for _ in 0...negativePower {
+                solution /= base
             }
             
         }
