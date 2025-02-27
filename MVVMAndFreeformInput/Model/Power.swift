@@ -15,24 +15,7 @@ struct Power {
     var exponent: Int
     
     
-    // MARK: Computed properties
-    
-    // A power is simply a shorter way of expressing
-    // repeated multiplication.
-    //
-    // e.g.: 3^2
-    //       = 3 * 3
-    //       = 9
-    //
-    // The base, 3, mutiplied by itself twice, resulting in 9
-    //
-    // This could also be expressed as:
-    //
-    // e.g.: 3^2
-    //       = 1 * 3 * 3
-    //       = 9
-    //
-    // We will implement code that mimics this second example.
+  
     var result: Double {
         
         var solution = 1.0
