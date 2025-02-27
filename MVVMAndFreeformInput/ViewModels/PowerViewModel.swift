@@ -27,16 +27,23 @@ class PowerViewModel {
         // First check that the string in providedBase can
         // be converted into a number, then check that the
         // value is more than 0
-        guard let base = Double(providedBase), base != Double() else {
+        guard let base = Double(providedBase) else {
             recoverySuggestion = "Please provide a numeric value for the base of the power."
             
             return nil
         }
         
+        guard  base > 0  else {
+            recoverySuggestion = "Please provide a positive value for the base"
+            
+            return nil
+
+        }
+        
         // Now check that the string in providedExponent can be
         // converted into an integer, and that the value is
         // more than or equal to 1
-        guard let exponent = Int(providedExponent), exponent != Int() else {
+        guard let exponent = Int(providedExponent) else {
             recoverySuggestion = "Please provide an integer for the exponent."
             
             return nil
@@ -58,6 +65,7 @@ class PowerViewModel {
         self.providedExponent = providedExponent
         self.recoverySuggestion = recoverySuggestion
     }
+    
     
 }
 
